@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: com.github.jinahya.bit.io
+Bnd-LastModified: 1726489071937
+Build-Jdk-Spec: 21
+Bundle-Description: A library for reading/writing non-octet aligned valu
+ es
+Bundle-DocURL: https://jinahya.com
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: jinahya-mockito-core
+Bundle-SymbolicName: com.github.jinahya.mockito-core
+Bundle-Vendor: Jinahya, Inc.
+Bundle-Version: 0.0.1.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin 5.1.9
+Export-Package: com.github.jinahya.mockito;version="0.0.1"
+Import-Package: java.lang,java.lang.invoke,org.mockito;version="[5.12,6)
+ "
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=11))"
+Tool: Bnd-6.3.1.202206071316

@@ -5,16 +5,21 @@
       <profile name="Annotation profile for jinahya-mockito-core" enabled="true">
         <sourceOutputDir name="../generated-sources/annotations" />
         <sourceTestOutputDir name="../generated-test-sources/test-annotations" />
+        <module name="jinahya-mockito.test" />
         <module name="jinahya-mockito-core.test" />
         <module name="jinahya-mockito-core.main" />
+        <module name="jinahya-mockito.main" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jinahya-mockito" options="-Xlint" />
       <module name="jinahya-mockito-core" options="-Xlint" />
       <module name="jinahya-mockito-core.main" options="-Xlint" />
       <module name="jinahya-mockito-core.test" options="-Xlint" />
+      <module name="jinahya-mockito.main" options="-Xlint" />
+      <module name="jinahya-mockito.test" options="-Xlint" />
     </option>
   </component>
 </project>
